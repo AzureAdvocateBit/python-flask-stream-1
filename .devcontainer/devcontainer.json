@@ -1,6 +1,9 @@
 {
-    "postCreateCommand": "/bin/bash ./.devcontainer/install.sh",
-    "extensions": [
-        "ms-python.python"
-    ]
+  "context": "..",
+  "image": "mcr.microsoft.com/vscode/devcontainers/python:3.8",
+  "postCreateCommand": "/bin/bash ./.devcontainer/install.sh",
+  "extensions": [
+    "ms-python.python"
+  ],
+  "remoteUser": "vscode"
 }
